@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/local_aac_decode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="localAacDecode"
+        android:text="本地视频AAC硬解码" />
+
+    <Button
+        android:id="@+id/realtime_aac_decode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/local_aac_decode"
+        android:layout_centerHorizontal="true"
+        android:onClick="realTimeAacDecode"
+        android:text="实时AAC音频硬解码" />
+
+    <Button
+        android:id="@+id/video_thumbnail_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/realtime_aac_decode"
+        android:layout_centerHorizontal="true"
+        android:onClick="videoThumbnailCrete"
+        android:text="本地视频缩略图生成" />
+
+</RelativeLayout>

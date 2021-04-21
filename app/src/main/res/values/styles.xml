@@ -1,0 +1,26 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FileListDialog" parent="android:style/Theme.Dialog">
+
+        <!-- &lt;!&ndash;背景颜色及和透明程度&ndash;&gt; -->
+        <!-- <item name="android:windowBackground">@color/result_minor_text</item> -->
+        <!-- &lt;!&ndash;是否去除标题 &ndash;&gt; -->
+        <!-- <item name="android:windowNoTitle">true</item> -->
+        <!-- &lt;!&ndash;是否去除边框&ndash;&gt; -->
+        <!-- <item name="android:windowFrame">@null</item> -->
+        <!-- &lt;!&ndash;是否浮现在activity之上&ndash;&gt; -->
+        <!-- <item name="android:windowIsFloating">true</item> -->
+        <!-- &lt;!&ndash;是否模糊&ndash;&gt; -->
+        <!-- <item name="android:backgroundDimEnabled">false</item> -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+</resources>

@@ -1,0 +1,56 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.aacdecoder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="16"
+8-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="17" />
+9-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:7:15-44
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:9:5-80
+11-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:9:22-77
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:10:5-75
+12-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:10:22-72
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:11:5-81
+13-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:11:22-78
+14
+15    <application
+15-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:13:5-28:19
+16        android:allowBackup="true"
+16-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:14:9-35
+17        android:debuggable="true"
+18        android:icon="@drawable/ic_launcher"
+18-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:15:9-45
+19        android:label="@string/app_name"
+19-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:16:9-41
+20        android:theme="@style/AppTheme" >
+20-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:17:9-40
+21        <activity
+21-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:18:9-27:20
+22            android:name="com.android.aacdecoder.MainActivity"
+22-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:19:13-41
+23            android:launchMode="singleTask"
+23-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:20:13-44
+24            android:screenOrientation="portrait" >
+24-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:21:13-49
+25            <intent-filter>
+25-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:22:13-26:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:23:17-69
+26-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:23:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:25:17-77
+28-->D:\AS\project\AacDecoder\app\src\main\AndroidManifest.xml:25:27-74
+29            </intent-filter>
+30        </activity>
+31    </application>
+32
+33</manifest>
